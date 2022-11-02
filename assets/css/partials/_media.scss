@@ -1,0 +1,22 @@
+/* media quries  */
+@media screen and (min-width:992px) {
+    nav {
+        position: sticky;
+        top: 0;
+    }
+}
+@media screen and (max-width:768px){
+    nav {
+        height: 8rem;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .menu-links a {
+        display: inline-block;
+        padding: 8px 10px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,103 @@
+/* footer  */
+.footer {
+    margin-top: 5rem;
+    /* background-color: var(--bg-main); */
+    background: linear-gradient(to right, #000428 , #004e92);
+    min-height: 10rem;
+    height: auto;
+    padding: 3rem 0px 0px 0.2rem;
+}
+.footer p {
+    text-align: center;
+    color: $bg-white;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+}
+
+.content ul li a , .content div{
+    text-decoration: none;
+    color: $bg-white;
+    
+}
+.content ul li a:hover {
+    text-decoration: underline;
+}
+.content ul {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.content .divider {
+    height: 3px;
+    width: 6rem;
+    background: $bg-white;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.divider2 {
+    background: $bg-white;
+    height: 1px;
+    margin-bottom: 5px;
+    margin-top: 1rem;
+}
+.content h2 {
+    font-weight: 400;
+}
+.text-footer {
+    padding: 10px 0px;
+}
+.text-footer a {
+    color: #fff;
+}
+#return-to-top{
+   position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    display: block;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: none;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+    
+}
+
+.whatsapp-logo img {
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
